@@ -2,6 +2,7 @@ package com.ezequiel.LaptopApp.Controllers;
 
 import com.ezequiel.LaptopApp.Entities.Laptop;
 import com.ezequiel.LaptopApp.Repositorys.LaptopRepo;
+import io.swagger.annotations.ApiOperation;
 import lombok.Data;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
