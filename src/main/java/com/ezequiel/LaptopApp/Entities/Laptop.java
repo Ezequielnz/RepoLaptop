@@ -14,5 +14,6 @@ public class Laptop {
     private Long id;
     private String marca;
     private String modelo;
+    private Double price;
 
 }
