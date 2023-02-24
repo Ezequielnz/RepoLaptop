@@ -8,6 +8,9 @@ class LaptopAppApplicationTests {
 
 	@Test
 	void contextLoads() {
+		System.getenv().forEach(
+				(key, value) -> System.out.println(key + "=" +value)
+		);
 	}
 
 }
